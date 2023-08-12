@@ -1,0 +1,146 @@
+body{
+    color: #313131;
+}
+
+/*NAVBAR*/
+.navbar-brand{
+    font-family: 'Cabin Condensed', sans-serif;
+    color: #3831B6;
+}
+
+/*HOME*/
+.home-section{
+    background: linear-gradient(180deg, hsla(244, 100%, 93%, 1) 0%, hsla(0, 0%, 99%, 1) 100%);
+    padding: 30px 30px;
+    height: auto;
+}
+
+.home-heading{
+    padding: 25px 0;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*MEMBERSHIPS*/
+.membership-section{
+    background-color: #FCFCFC;
+    padding: 80px 30px;
+}
+
+.purple-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #6C63FF;
+    font-size: 2.25em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.membership-heading{
+    padding: 30px 0;
+}
+
+.card-header{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+.radiant-membership-header{
+    background: linear-gradient(90deg, hsla(218, 100%, 87%, 1) 0%, hsla(251, 100%, 83%, 1) 100%);
+}
+
+.harmony-membership-header{
+    background: linear-gradient(90deg, hsla(316, 100%, 87%, 1) 0%, hsla(26, 100%, 71%, 1) 100%);
+}
+
+.accordion{
+    margin: 30px 0;
+}
+
+.benefit-list{
+    list-style: none;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+/*WHY CHOOSE US*/
+.why-us-section{
+    background-color: #FCFCFC;
+    padding: 80px 30px;
+}
+
+.why-us-subheading{
+    font-family: 'Cabin Condensed', sans-serif;
+    padding: 15px 0;
+}
+
+.why-us-text{
+    max-width: 1250px;
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+
+/*CONTACT*/
+.contact-section{
+    background-color: #FCFCFC;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+}
+
+.user-agreement-checkbox{
+    font-size: small;
+}
+
+.contact-btn-container{
+    padding: 15px 0;
+}
+
+/*BUTTONS*/
+
+.start-btn-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.why-us-btn-link{
+    color: #6C63FF;
+    text-decoration: none;
+}
+
+.main-btn{
+    background-color: #6C63FF;
+    color: #fff;
+    border: 1px solid #6C63FF;
+    border-radius: 3px;
+    padding: 5px 35px;
+    margin: 10px 0;
+    width: 175px;
+}
+
+.secondary-btn{
+    background-color: #fff;
+    color: #6C63FF;
+    border: 1px solid #6C63FF;
+    border-radius: 3px;
+    padding: 5px 35px;
+    margin: 10px 0;
+    width: 175px;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(180deg, hsla(0, 0%, 99%, 1) 0%, hsla(251, 100%, 83%, 1) 87%);
+    height: 150px;
+}
+
+.footer-text{
+    color: #1C1C1C;
+    text-align: center;
+    font-family: 'Cabin Condensed', sans-serif;
+}
